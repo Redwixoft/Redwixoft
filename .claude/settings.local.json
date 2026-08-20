@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "mcp__Claude_Preview__preview_start",
-      "WebFetch(domain:nominatim.openstreetmap.org)"
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "Bash(ls -la /c/Redwik/IT/Abecedo/ 2>/dev/null; echo \"---REDWIXOFT ABECEDO---\"; ls -la /c/Redwik/IT/Redwixoft/abecedo/ 2>/dev/null; echo \"---ASSETS---\"; ls /c/Redwik/IT/Redwixoft/assets/ 2>/dev/null | grep -i abecedo)",
+      "Bash(pkill -f \"http.server 8791\")"
     ]
   }
 }

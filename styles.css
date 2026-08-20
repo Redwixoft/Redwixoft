@@ -240,6 +240,7 @@ a { color: inherit; text-decoration: none; }
     var(--surface);
 }
 .product:hover { transform: translateY(-5px); border-color: var(--border-strong); }
+.product--link { text-decoration: none; color: inherit; cursor: pointer; }
 .product__shot {
   position: relative; width: 220px; max-width: 100%; aspect-ratio: 9 / 19;
   display: grid; place-items: center; border-radius: 26px; overflow: hidden;
