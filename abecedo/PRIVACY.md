@@ -1,6 +1,6 @@
 # Abecedo — Ochrana súkromia / Privacy Policy
 
-Platné od 20. augusta 2026 · Effective 20 August 2026
+Platné od 23. septembra 2026 · Effective 23 September 2026
 
 The Slovak version below is the one shown in the app (Nastavenia → Súkromie). The English
 version is a translation of the same text; where the two differ, the Slovak one governs.
@@ -14,8 +14,9 @@ uložené a ako sa toho zbavíš.
 
 ### Kto údaje spracúva
 
-Abecedo vyvíja a prevádzkuje Tomáš Paulduro ako súkromná osoba. Kontakt na všetko, čo je
-nižšie, vrátane žiadostí podľa GDPR: t.paulduro@gmail.com.
+Abecedo vyvíja a prevádzkuje Redwixoft s. r. o., IČO: 55876714, ktorá je prevádzkovateľom
+tvojich údajov. Kontakt na všetko, čo je nižšie, vrátane žiadostí podľa GDPR:
+tomas@redwixoft.sk.
 
 ### Čo je uložené na serveri
 
@@ -79,9 +80,9 @@ použiješ — podľa toho, čo nastane skôr.
 
 ### Zmazanie účtu
 
-Zmazať účet priamo v aplikácii zatiaľ nejde. Napíš na t.paulduro@gmail.com a účet aj so
+Zmazať účet priamo v aplikácii zatiaľ nejde. Napíš na tomas@redwixoft.sk a účet aj so
 všetkými výsledkami zmažeme, najneskôr do 30 dní. Uveď prezývku — bez nej ti účet nemusíme
-vedieť nájsť.
+vedieť nájsť. Podrobný postup: https://www.redwixoft.sk/abecedo-delete-account.html
 
 ### Tvoje práva
 
@@ -114,8 +115,9 @@ about you, where it is kept, and how to get rid of it.
 
 ### Who processes your data
 
-Abecedo is developed and operated by Tomáš Paulduro as a private individual. Contact for
-everything below, including GDPR requests: t.paulduro@gmail.com.
+Abecedo is developed and operated by Redwixoft s. r. o. (company ID 55876714), which is the
+controller of your data. Contact for everything below, including GDPR requests:
+tomas@redwixoft.sk.
 
 ### What is stored on the server
 
@@ -180,9 +182,10 @@ moment you use it — whichever comes first.
 
 ### Deleting your account
 
-Deleting an account from inside the app is not possible yet. Email t.paulduro@gmail.com and
+Deleting an account from inside the app is not possible yet. Email tomas@redwixoft.sk and
 we will delete the account and all its results, within 30 days at the latest. Include your
-nickname — without it we may not be able to find the account.
+nickname — without it we may not be able to find the account. Step by step:
+https://www.redwixoft.sk/abecedo-delete-account.html
 
 ### Your rights
 
