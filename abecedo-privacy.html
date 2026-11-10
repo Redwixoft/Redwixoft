@@ -6,70 +6,43 @@
   <title>Abecedo — Ochrana súkromia / Privacy Policy</title>
   <meta name="description" content="Zásady ochrany súkromia hry Abecedo. Abecedo je hra, nie zberateľ údajov. Privacy policy for the Abecedo word game." />
   <meta name="robots" content="index, follow" />
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#171614" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/png" href="assets/abecedo-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="abecedo.css" />
 </head>
 <body>
-  <!-- Background decoration -->
-  <div class="bg-grid" aria-hidden="true"></div>
-  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
-
-  <!-- Navigation -->
-  <header class="nav scrolled" id="nav">
-    <div class="container nav__inner">
-      <a href="index.html" class="brand" aria-label="Redwixoft home">
-        <span class="brand__logo" aria-hidden="true">
-          <img src="assets/favicon.svg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('brand__logo--fallback')" />
-          <span class="brand__logo-fallback">R</span>
-        </span>
-        <span class="brand__name">Redwix<span class="brand__accent">oft</span></span>
-      </a>
-
-      <nav class="nav__links" aria-label="Primary">
-        <a href="abecedo.html">Abecedo</a>
-        <a href="index.html#products">Products</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-
-      <a href="index.html#contact" class="btn btn--sm nav__cta">Get in touch</a>
-
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav class="nav__mobile" id="navMobile" aria-label="Mobile">
-      <a href="abecedo.html">Abecedo</a>
-      <a href="index.html#products">Products</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
+  <header class="top">
+    <a href="abecedo.html" class="top__logo" aria-label="Abecedo">
+      <img src="assets/abecedo-logo.png" alt="" width="42" height="42" />
+      Abecedo
+    </a>
+    <nav aria-label="Abecedo">
+      <a href="abecedo.html">O hre</a>
+      <a href="abecedo-privacy.html" aria-current="page">Súkromie</a>
+      <a href="abecedo-delete-account.html">Zmazanie účtu</a>
+      <a href="index.html" class="top__by">od Redwixoft</a>
     </nav>
   </header>
 
   <main>
-    <section class="legal">
-      <div class="container">
-        <article class="legal__doc">
-          <a href="abecedo.html" class="backlink">← Späť na Abecedo</a>
-
-          <span class="eyebrow">Abecedo</span>
-          <h1 class="section__title">Ochrana súkromia<br />Privacy Policy</h1>
-          <p class="legal__meta">Platné od 23. septembra 2026 · Effective 23 September 2026</p>
-          <p class="legal__note">
+    <article class="doc">
+      <h1>Ochrana súkromia <span class="en" lang="en">Privacy Policy</span></h1>
+      <p class="doc__meta">Platné od 23. septembra 2026 · Effective 23 September 2026</p>
+      <nav class="doc__jump" aria-label="Jazyk / Language"><a href="#sk">Slovensky</a><a href="#en" lang="en">English</a></nav>
+      <p class="legal__note">
             Slovenská verzia nižšie je tá, ktorá sa zobrazuje v aplikácii (Nastavenia → Súkromie).
             Anglická verzia je jej prekladom; ak sa líšia, rozhoduje slovenská.
             <span class="en">The Slovak version below is the one shown in the app (Nastavenia → Súkromie).
             The English version is a translation of the same text; where the two differ, the Slovak one governs.</span>
           </p>
-
-          <hr />
+      <hr />
 
           <!-- ============ SLOVENSKY ============ -->
-          <h2>Slovensky</h2>
+          <h2 id="sk">Slovensky</h2>
           <p class="legal__lead">
             Abecedo je hra, nie zberateľ údajov. Toto je celý zoznam toho, čo o tebe vieme, kde to je
             uložené a ako sa toho zbavíš.
@@ -184,7 +157,8 @@
           <hr />
 
           <!-- ============ ENGLISH ============ -->
-          <h2>English</h2>
+          <div lang="en">
+          <h2 id="en" lang="en">English</h2>
           <p class="legal__lead">
             Abecedo is a game, not a data collector. What follows is the complete list of what we know
             about you, where it is kept, and how to get rid of it.
@@ -297,32 +271,15 @@
             If something changes we will update this text and change the date at the top. We will announce
             any substantive change in the app itself.
           </p>
-        </article>
-      </div>
-    </section>
+          </div>
+    </article>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <span class="brand__logo brand__logo--sm" aria-hidden="true">
-          <img src="assets/favicon.svg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('brand__logo--fallback')" />
-          <span class="brand__logo-fallback">R</span>
-        </span>
-        <span class="brand__name">Redwix<span class="brand__accent">oft</span></span>
-      </div>
-      <p class="footer__meta">
-        Abecedo · <a href="abecedo.html">O hre</a> ·
-        <a href="mailto:tomas@redwixoft.sk">tomas@redwixoft.sk</a>
-      </p>
-      <p class="footer__legal">
-        Redwixoft s.&nbsp;r.&nbsp;o. · IČO: 55876714 · DIČ: 2122116447 · IČ DPH: SK2122116447
-      </p>
-      <p class="footer__copy">© <span id="year"></span> Redwixoft s.&nbsp;r.&nbsp;o. All rights reserved.</p>
-    </div>
+  <footer class="foot">
+    <a class="foot__by" href="index.html"><img src="assets/favicon.svg" alt="" width="22" height="22" />Redwixoft s.&nbsp;r.&nbsp;o.</a>
+    <span><a href="abecedo.html">O hre</a> · <a href="mailto:tomas@redwixoft.sk">tomas@redwixoft.sk</a></span>
+    <span>Svidnícka 107/15, 821 03 Bratislava – Ružinov</span>
+    <span>IČO: 55876714 · DIČ: 2122116447 · IČ DPH: SK2122116447</span>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

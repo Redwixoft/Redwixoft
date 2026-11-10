@@ -1,69 +1,43 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abecedo — Zmazanie účtu / Delete account</title>
-  <meta name="description" content="Ako zmazať účet alebo údaje v hre Abecedo. How to delete your Abecedo account or data.">
-  <meta name="robots" content="index, follow">
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="abecedo.css">
+  <meta name="description" content="Ako zmazať účet alebo údaje v hre Abecedo. How to delete your Abecedo account or data." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#171614" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/png" href="assets/abecedo-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="abecedo.css" />
 </head>
 <body>
-  <!-- Background decoration -->
-  <div class="bg-grid" aria-hidden="true"></div>
-  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
-
-  <!-- Navigation -->
-  <header class="nav" id="nav">
-    <div class="container nav__inner">
-      <a href="index.html" class="brand" aria-label="Redwixoft home">
-        <span class="brand__logo" aria-hidden="true">
-          <img src="assets/favicon.svg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('brand__logo--fallback')">
-          <span class="brand__logo-fallback">R</span>
-        </span>
-        <span class="brand__name">Redwix<span class="brand__accent">oft</span></span>
-      </a>
-
-      <nav class="nav__links" aria-label="Primary">
-        <a href="abecedo.html">Abecedo</a>
-        <a href="index.html#products">Products</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#contact">Contact</a>
-      </nav>
-
-      <a href="index.html#contact" class="btn btn--sm nav__cta">Get in touch</a>
-
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav class="nav__mobile" id="navMobile" aria-label="Mobile">
-      <a href="abecedo.html">Abecedo</a>
-      <a href="index.html#products">Products</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
+  <header class="top">
+    <a href="abecedo.html" class="top__logo" aria-label="Abecedo">
+      <img src="assets/abecedo-logo.png" alt="" width="42" height="42" />
+      Abecedo
+    </a>
+    <nav aria-label="Abecedo">
+      <a href="abecedo.html">O hre</a>
+      <a href="abecedo-privacy.html">Súkromie</a>
+      <a href="abecedo-delete-account.html" aria-current="page">Zmazanie účtu</a>
+      <a href="index.html" class="top__by">od Redwixoft</a>
     </nav>
   </header>
 
   <main>
-    <section class="legal">
-      <div class="container">
-        <article class="legal__doc">
-          <a href="abecedo.html" class="backlink">← Späť na Abecedo</a>
-
-          <span class="eyebrow">Abecedo</span>
-          <h1 class="section__title">Zmazanie účtu a údajov<br>Deleting your account and data</h1>
-          <p class="legal__meta">Abecedo · Redwixoft s.&nbsp;r.&nbsp;o.</p>
-
-          <hr>
+    <article class="doc">
+      <h1>Zmazanie účtu a údajov <span class="en" lang="en">Deleting your account and data</span></h1>
+      <p class="doc__meta">Abecedo · Redwixoft s.&nbsp;r.&nbsp;o.</p>
+      <nav class="doc__jump" aria-label="Jazyk / Language"><a href="#sk">Slovensky</a><a href="#en" lang="en">English</a></nav>
+      
+      <hr>
 
           <!-- ============ SLOVENSKY ============ -->
-          <h2>Slovensky</h2>
+          <h2 id="sk">Slovensky</h2>
 
           <h3 id="ucet">Ako zmazať účet</h3>
           <ol>
@@ -106,7 +80,8 @@
           <hr>
 
           <!-- ============ ENGLISH ============ -->
-          <h2>English</h2>
+          <div lang="en">
+          <h2 id="en" lang="en">English</h2>
 
           <h3 id="account">How to delete your account</h3>
           <ol>
@@ -151,32 +126,15 @@
             Viac o tom, aké údaje spracúvame: <a href="abecedo-privacy.html">Ochrana súkromia</a>.
             <span class="en">More on what data we process: <a href="abecedo-privacy.html">Privacy Policy</a>.</span>
           </p>
-        </article>
-      </div>
-    </section>
+          </div>
+    </article>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <span class="brand__logo brand__logo--sm" aria-hidden="true">
-          <img src="assets/favicon.svg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('brand__logo--fallback')">
-          <span class="brand__logo-fallback">R</span>
-        </span>
-        <span class="brand__name">Redwix<span class="brand__accent">oft</span></span>
-      </div>
-      <p class="footer__meta">
-        Abecedo · <a href="abecedo.html">O hre</a> ·
-        <a href="mailto:tomas@redwixoft.sk">tomas@redwixoft.sk</a>
-      </p>
-      <p class="footer__legal">
-        Redwixoft s.&nbsp;r.&nbsp;o. · IČO: 55876714 · DIČ: 2122116447 · IČ DPH: SK2122116447
-      </p>
-      <p class="footer__copy">© <span id="year"></span> Redwixoft s.&nbsp;r.&nbsp;o. All rights reserved.</p>
-    </div>
+  <footer class="foot">
+    <a class="foot__by" href="index.html"><img src="assets/favicon.svg" alt="" width="22" height="22" />Redwixoft s.&nbsp;r.&nbsp;o.</a>
+    <span><a href="abecedo.html">O hre</a> · <a href="mailto:tomas@redwixoft.sk">tomas@redwixoft.sk</a></span>
+    <span>Svidnícka 107/15, 821 03 Bratislava – Ružinov</span>
+    <span>IČO: 55876714 · DIČ: 2122116447 · IČ DPH: SK2122116447</span>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

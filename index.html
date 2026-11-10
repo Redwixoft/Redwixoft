@@ -4,367 +4,207 @@
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="dBNNiyrDiaIBp0FWQQXkau3d_iH0eHNb_lzRZ69Ui7s" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Redwixoft — Software Development &amp; AI</title>
-  <meta name="description" content="Redwixoft is a Bratislava-based software studio building .NET applications and AI-powered products. Makers of PooRain and Kochick." />
-  <meta property="og:title" content="Redwixoft — Software Development &amp; AI" />
-  <meta property="og:description" content="A Bratislava software studio building .NET applications and AI-powered products." />
+  <title>Redwixoft — apps, games and .NET software from Bratislava</title>
+  <meta name="description" content="Redwixoft is a small Bratislava studio. We make our own apps and games — Abecedo, AstroShift, Kochick and PooRain — and build .NET and AI software for clients." />
+  <meta property="og:title" content="Redwixoft — apps and games, from A to P" />
+  <meta property="og:description" content="A small Bratislava studio making its own apps and games, and .NET and AI software for clients." />
   <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#ffffff" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600;700;800;900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-  <!-- Background decoration -->
-  <div class="bg-grid" aria-hidden="true"></div>
-  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
-  <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+  <a class="skip" href="#apps">Skip to the apps</a>
 
-  <!-- Navigation -->
-  <header class="nav" id="nav">
-    <div class="container nav__inner">
-      <a href="#home" class="brand" aria-label="Redwixoft home">
-        <!-- LOGO PLACEHOLDER — drop your transparent PNG at assets/logo.png -->
-        <span class="brand__logo" aria-hidden="true">
-          <img src="assets/favicon.svg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('brand__logo--fallback')" />
-          <span class="brand__logo-fallback">R</span>
-        </span>
-        <span class="brand__name">Redwix<span class="brand__accent">oft</span></span>
-      </a>
-
-      <nav class="nav__links" aria-label="Primary">
-        <a href="#services">Services</a>
-        <a href="#products">Products</a>
-        <a href="#process">Process</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <a href="#contact" class="btn btn--sm nav__cta">Get in touch</a>
-
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav class="nav__mobile" id="navMobile" aria-label="Mobile">
-      <a href="#services">Services</a>
-      <a href="#products">Products</a>
-      <a href="#process">Process</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+  <header class="bar">
+    <a href="#top" class="mark" aria-label="Redwixoft, back to top">
+      <img src="assets/favicon.svg" alt="" width="32" height="32" />
+      <span>Redwixoft</span>
+    </a>
+    <nav class="bar__nav" aria-label="Primary">
+      <a href="#apps">Apps</a>
+      <a href="#studio">Studio</a>
+      <a href="#contact" class="bar__write">Write to us</a>
     </nav>
   </header>
 
-  <main>
-    <!-- Hero -->
-    <section class="hero" id="home">
-      <div class="container hero__inner">
-        <span class="pill">
-          <span class="pill__dot"></span>
-          Software studio · Bratislava, Slovakia
+  <main id="top">
+    <!-- The primer index: one plate per product -->
+    <section class="hook" aria-labelledby="hook-title">
+      <h1 id="hook-title">Apps and games, from A&nbsp;to&nbsp;P.</h1>
+      <p>
+        We're a small studio in Bratislava. We make our own apps and games, and we build .NET
+        and AI software for clients.
+      </p>
+    </section>
+
+    <nav class="plates" id="apps" aria-label="Our apps and games">
+      <a class="plate plate--yolk" href="#abecedo" style="--i:0">
+        <span class="plate__letter" aria-hidden="true">A<small>a</small></span>
+        <span class="plate__shot" aria-hidden="true"><img src="assets/abecedo.jpg" alt="" width="921" height="2048" loading="eager" /></span>
+        <span class="plate__word">
+          <b aria-label="Abecedo"><i>A</i><i>be</i><i>ce</i><i>do</i></b>
+          <span>Slovak word game</span>
         </span>
-        <h1 class="hero__title">
-          We build <span class="grad-text">.NET software</span><br />
-          and <span class="grad-text">AI-powered</span> products.
-        </h1>
-        <p class="hero__sub">
-          Redwixoft is an independent software development studio. We craft reliable
-          .NET applications and intelligent, AI-driven features — and we build our own
-          products, too, like <strong>PooRain</strong> and <strong>Kochick</strong>.
+      </a>
+      <a class="plate plate--cobalt" href="#astroshift" style="--i:1">
+        <span class="plate__letter" aria-hidden="true">A<small>a</small></span>
+        <span class="plate__shot" aria-hidden="true"><img src="assets/astroshift.jpg" alt="" loading="eager" /></span>
+        <span class="plate__word">
+          <b aria-label="AstroShift"><i>As</i><i>tro</i><i>Shift</i></b>
+          <span>Arcade game</span>
+        </span>
+      </a>
+      <a class="plate plate--grass" href="#kochick" style="--i:2">
+        <span class="plate__letter" aria-hidden="true">K<small>k</small></span>
+        <span class="plate__shot" aria-hidden="true"><img src="assets/kochick.png" alt="" loading="eager" /></span>
+        <span class="plate__word">
+          <b aria-label="Kochick"><i>Ko</i><i>chick</i></b>
+          <span>App for parents</span>
+        </span>
+      </a>
+      <a class="plate plate--verm" href="#poorain" style="--i:3">
+        <span class="plate__letter" aria-hidden="true">P<small>p</small></span>
+        <span class="plate__shot" aria-hidden="true"><img src="assets/poorain.png" alt="" loading="eager" /></span>
+        <span class="plate__word">
+          <b aria-label="PooRain"><i>Poo</i><i>Rain</i></b>
+          <span>Mobile game</span>
+        </span>
+      </a>
+    </nav>
+
+    <div class="linajky" aria-hidden="true"></div>
+
+    <!-- The reading page: one entry per product -->
+    <section class="reader" aria-labelledby="reader-title">
+      <h2 id="reader-title" class="reader__title">What each one is</h2>
+
+      <article class="entry" id="abecedo">
+        <span class="entry__letter entry__letter--yolk" aria-hidden="true">A</span>
+        <div class="entry__body">
+          <h3>Abecedo</h3>
+          <p class="entry__tag">Daily word game · Slovak · Android</p>
+          <p>
+            One secret Slovak word a day, and every guess narrows it down to before or after in the
+            alphabet. Simple to learn, impossible to stop at just one guess.
+          </p>
+          <p class="entry__actions">
+            <a class="btn btn--ink" href="https://play.google.com/store/apps/details?id=sk.abecedo.app" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l14-8.5z" fill="currentColor"/></svg>
+              Get it on Google Play
+            </a>
+            <a class="link" href="abecedo.html">About the game</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="entry" id="astroshift">
+        <span class="entry__letter entry__letter--cobalt" aria-hidden="true">A</span>
+        <div class="entry__body">
+          <h3>AstroShift</h3>
+          <p class="entry__tag">One-touch arcade game</p>
+          <p>
+            A one-touch arcade dodger set in deep space: hold left or right, weave through everything
+            the universe throws at you, and see how long you last. Behind the endless mode is a
+            24-step campaign that follows one astronaut from Earth's orbit to an alien world — and to
+            a very unexpected ending.
+          </p>
+          <p class="entry__actions"><span class="entry__pending">Store link coming soon</span></p>
+        </div>
+      </article>
+
+      <article class="entry" id="kochick">
+        <span class="entry__letter entry__letter--grass" aria-hidden="true">K</span>
+        <div class="entry__body">
+          <h3>Kochick</h3>
+          <p class="entry__tag">App for parents</p>
+          <p>
+            An app that helps parents find friends for strolls nearby and turns everyday walks with
+            the baby into a fun, gamified routine.
+          </p>
+          <p class="entry__actions">
+            <a class="btn btn--ink" href="https://www.kochick.sk/" target="_blank" rel="noopener">Visit kochick.sk</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="entry" id="poorain">
+        <span class="entry__letter entry__letter--verm" aria-hidden="true">P</span>
+        <div class="entry__body">
+          <h3>PooRain</h3>
+          <p class="entry__tag">Mobile game</p>
+          <p>
+            A playful, fast-paced mobile game — easy to pick up, hard to put down. Built to be fun first.
+          </p>
+          <p class="entry__actions"><span class="entry__pending">Store link coming soon</span></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Studio: services, process, who we are -->
+    <section class="studio" id="studio" aria-labelledby="studio-title">
+      <span class="studio__letter" aria-hidden="true">R</span>
+      <div class="studio__text">
+        <h2 id="studio-title">We build software for you, too.</h2>
+        <p class="studio__lead">
+          Because we build and run our own products, we know what it takes to ship and maintain
+          something people actually use. We bring the same ownership to client work: clean .NET
+          code, honest timelines, and software that solves real problems.
         </p>
-        <div class="hero__actions">
-          <a href="#contact" class="btn btn--lg">Start a project</a>
-          <a href="#products" class="btn btn--ghost btn--lg">See our products</a>
-        </div>
 
-        <ul class="tech-row" aria-label="Core technologies">
-          <li>.NET</li>
-          <li>C#</li>
-          <li>AI / ML</li>
-          <li>ASP.NET Core</li>
-          <li>Cloud</li>
-          <li>Mobile</li>
+        <ul class="words" aria-label="What we do">
+          <li><b>.NET development.</b> Robust, maintainable applications on .NET and C#, from web APIs to desktop and background services.</li>
+          <li><b>AI that ships.</b> LLM integrations, intelligent automation, and smart features embedded right into your product.</li>
+          <li><b>Web platforms and APIs.</b> Web apps, dashboards and clean APIs that are secure, fast, and easy to evolve.</li>
+          <li><b>Mobile apps.</b> The same care that goes into our own apps, applied to yours.</li>
+          <li><b>Cloud and DevOps.</b> CI/CD pipelines, containers and monitoring set up so releases stay boring.</li>
+          <li><b>Consulting and architecture.</b> Architecture reviews, technical strategy and hands-on guidance.</li>
         </ul>
-      </div>
-    </section>
 
-    <!-- Services -->
-    <section class="section" id="services">
-      <div class="container">
-        <div class="section__head">
-          <span class="eyebrow">What we do</span>
-          <h2 class="section__title">Software engineering, with an AI edge</h2>
-          <p class="section__lead">
-            Deep .NET expertise combined with modern AI — one team from first idea to production.
-          </p>
-        </div>
-
-        <div class="cards">
-          <article class="card">
-            <div class="card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6M13 4l-2 16"/></svg>
-            </div>
-            <h3>.NET Development</h3>
-            <p>Robust, maintainable applications built on .NET and C# — from web APIs to desktop and background services.</p>
-          </article>
-
-          <article class="card">
-            <div class="card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V4M9 4h6M8 13h.01M16 13h.01M9 17h6"/></svg>
-            </div>
-            <h3>AI &amp; Machine Learning</h3>
-            <p>Practical AI that ships — LLM integrations, intelligent automation, and smart features embedded right into your product.</p>
-          </article>
-
-          <article class="card">
-            <div class="card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 22h8"/></svg>
-            </div>
-            <h3>Web Platforms &amp; APIs</h3>
-            <p>Scalable web apps, dashboards, and clean APIs — secure, fast, and easy to evolve as you grow.</p>
-          </article>
-
-          <article class="card">
-            <div class="card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
-            </div>
-            <h3>Mobile Apps</h3>
-            <p>Engaging, high-performance mobile experiences — the same care that goes into Kochick, applied to your app.</p>
-          </article>
-
-          <article class="card">
-            <div class="card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 16a4 4 0 0 1 0-8 5 5 0 0 1 9.6-1.5A4 4 0 0 1 18 16H6z"/></svg>
-            </div>
-            <h3>Cloud &amp; DevOps</h3>
-            <p>Infrastructure that scales — CI/CD pipelines, containers, and monitoring set up so releases stay boring.</p>
-          </article>
-
-          <article class="card">
-            <div class="card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7l7-4z"/><path d="M9 12l2 2 4-4"/></svg>
-            </div>
-            <h3>Consulting &amp; Architecture</h3>
-            <p>Architecture reviews, technical strategy, and hands-on guidance to move your product in the right direction.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Products -->
-    <section class="section section--alt" id="products">
-      <div class="container">
-        <div class="section__head">
-          <span class="eyebrow">Our products</span>
-          <h2 class="section__title">Things we've built ourselves</h2>
-          <p class="section__lead">
-            We don't just build for clients — we ship our own products and live with the results.
-          </p>
-        </div>
-
-        <div class="products">
-          <article class="product">
-            <!-- SCREENSHOT PLACEHOLDER — replace src with your PooRain screenshot -->
-            <div class="product__shot">
-              <img src="assets/poorain.png" alt="PooRain screenshot"
-                   onerror="this.style.display='none';this.parentElement.classList.add('is-empty')" />
-              <span class="product__shot-ph">Screenshot coming soon</span>
-            </div>
-            <div class="product__body">
-              <span class="product__tag">Game</span>
-              <h3>PooRain</h3>
-              <p>A playful, fast-paced mobile game — easy to pick up, hard to put down. Built to be fun first.</p>
-            </div>
-          </article>
-
-          <a class="product product--link" href="https://www.kochick.sk/" target="_blank" rel="noopener">
-            <!-- SCREENSHOT PLACEHOLDER — replace src with your Kochick screenshot -->
-            <div class="product__shot">
-              <img src="assets/kochick.png" alt="Kochick screenshot"
-                   onerror="this.style.display='none';this.parentElement.classList.add('is-empty')" />
-              <span class="product__shot-ph">Screenshot coming soon</span>
-            </div>
-            <div class="product__body">
-              <span class="product__tag">App for parents</span>
-              <h3>Kochick</h3>
-              <p>An app that helps parents find friends for strolls nearby and turns everyday walks with the baby into a fun, gamified routine.</p>
-            </div>
-          </a>
-
-          <article class="product">
-            <!-- SCREENSHOT PLACEHOLDER — replace src with your AstroShift screenshot -->
-            <div class="product__shot">
-              <img src="assets/astroshift.jpg" alt="AstroShift screenshot"
-                   onerror="this.style.display='none';this.parentElement.classList.add('is-empty')" />
-              <span class="product__shot-ph">Screenshot coming soon</span>
-            </div>
-            <div class="product__body">
-              <span class="product__tag">Game</span>
-              <h3>AstroShift</h3>
-              <p>A one-touch arcade dodger set in deep space: hold left or right, weave through everything the universe throws at you, and see how long you last. Behind the endless mode is a 24-step campaign that follows one astronaut from Earth's orbit to an alien world — and to a very unexpected ending.</p>
-            </div>
-          </article>
-
-          <a class="product product--link" href="abecedo.html">
-            <!-- SCREENSHOT PLACEHOLDER — replace src with your Abecedo screenshot -->
-            <div class="product__shot">
-              <img src="assets/abecedo.jpg" alt="Abecedo screenshot"
-                   onerror="this.style.display='none';this.parentElement.classList.add('is-empty')" />
-              <span class="product__shot-ph">Screenshot coming soon</span>
-            </div>
-            <div class="product__body">
-              <span class="product__tag">Word game</span>
-              <h3>Abecedo</h3>
-              <p>One secret Slovak word a day, and every guess narrows it down to before or after in the alphabet. Simple to learn, impossible to stop at just one guess.</p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Process -->
-    <section class="section" id="process">
-      <div class="container">
-        <div class="section__head">
-          <span class="eyebrow">How we work</span>
-          <h2 class="section__title">A simple, transparent process</h2>
-        </div>
-
-        <ol class="steps">
-          <li class="step">
-            <span class="step__num">01</span>
-            <h3>Discover</h3>
-            <p>We dig into your goals, users, and constraints to define what truly matters.</p>
-          </li>
-          <li class="step">
-            <span class="step__num">02</span>
-            <h3>Design</h3>
-            <p>Clear architecture and thoughtful UX before a single line of production code.</p>
-          </li>
-          <li class="step">
-            <span class="step__num">03</span>
-            <h3>Build</h3>
-            <p>Iterative development with frequent demos — you see progress every week.</p>
-          </li>
-          <li class="step">
-            <span class="step__num">04</span>
-            <h3>Ship &amp; Scale</h3>
-            <p>We launch, monitor, and keep improving as your product grows.</p>
-          </li>
+        <h3 class="studio__sub">How a project goes</h3>
+        <ol class="sequence">
+          <li><b>Discover.</b> We dig into your goals, users and constraints to define what truly matters.</li>
+          <li><b>Design.</b> Clear architecture and thoughtful UX before a single line of production code.</li>
+          <li><b>Build.</b> Iterative development with frequent demos — you see progress every week.</li>
+          <li><b>Ship and scale.</b> We launch, monitor, and keep improving as your product grows.</li>
         </ol>
       </div>
     </section>
 
-    <!-- About -->
-    <section class="section section--alt" id="about">
-      <div class="container about">
-        <div class="about__text">
-          <span class="eyebrow">Who we are</span>
-          <h2 class="section__title">A small studio with a builder's mindset</h2>
-          <p>
-            Redwixoft is an independent software studio based in Bratislava. We care about
-            the details — clean .NET code, honest timelines, and software that solves real problems.
-          </p>
-          <p>
-            Because we build and run our own products, we know what it takes to ship and
-            maintain something people actually use. We bring that same ownership to every client project.
-          </p>
-          <ul class="checklist">
-            <li>Deep .NET and C# expertise</li>
-            <li>Modern AI woven into real products</li>
-            <li>Direct, jargon-free communication</li>
-          </ul>
-        </div>
-        <div class="about__panel" aria-hidden="true">
-          <div class="code-window">
-            <div class="code-window__bar">
-              <span></span><span></span><span></span>
-            </div>
-            <pre class="code-window__body"><code><span class="c-key">var</span> <span class="c-var">redwixoft</span> = <span class="c-key">new</span> <span class="c-type">Studio</span>
-{
-    <span class="c-prop">Focus</span> = <span class="c-str">"your product"</span>,
-    <span class="c-prop">Stack</span> = [<span class="c-str">".NET"</span>, <span class="c-str">"AI"</span>, <span class="c-str">"Cloud"</span>],
-    <span class="c-prop">Delivery</span> = <span class="c-str">"on time"</span>,
-};
-
-<span class="c-var">redwixoft</span>.<span class="c-fn">Ship</span>();
-<span class="c-cmt">// → something great</span></code></pre>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section__head">
-          <span class="eyebrow">Get in touch</span>
-          <h2 class="section__title">Let's build something together</h2>
-          <p class="section__lead">
-            Have a project or an idea? Send us an email — we'd love to hear about it.
-          </p>
-        </div>
-
-        <div class="contact">
-          <div class="contact__info">
-            <a class="contact__item" href="mailto:tomas@redwixoft.sk">
-              <span class="contact__ico">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
-              </span>
-              <span>
-                <small>Email us</small>
-                tomas@redwixoft.sk
-              </span>
-            </a>
-
-            <div class="contact__item">
-              <span class="contact__ico">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-              </span>
-              <span>
-                <small>Visit us</small>
-                Redwixoft s.&nbsp;r.&nbsp;o.<br />Svidnícka 107/15<br />821 03 Bratislava – Ružinov, Slovakia
-              </span>
-            </div>
-
-            <a href="mailto:tomas@redwixoft.sk?subject=Project%20inquiry" class="btn btn--lg contact__btn">Email tomas@redwixoft.sk</a>
-          </div>
-
-          <div class="contact__map">
-            <iframe
-              title="Redwixoft location — Svidnícka 107/15, Bratislava"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=17.1453%2C48.1556%2C17.1614%2C48.1636&layer=mapnik&marker=48.1596208%2C17.1533696"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <a class="contact__maplink"
-               href="https://www.google.com/maps/search/?api=1&query=Svidn%C3%ADcka%20107%2F15%2C%20821%2003%20Bratislava"
-               target="_blank" rel="noopener">Open in Google Maps ↗</a>
-          </div>
-        </div>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__text">
+        <h2 id="contact-title">Write to us.</h2>
+        <p>Have a project or an idea? Send us an email — we'd love to hear about it.</p>
+        <a class="contact__mail" href="mailto:tomas@redwixoft.sk?subject=Project%20inquiry">tomas@redwixoft.sk</a>
+        <address>
+          Redwixoft s.&nbsp;r.&nbsp;o.<br />
+          Svidnícka 107/15<br />
+          821 03 Bratislava – Ružinov, Slovakia
+        </address>
       </div>
+      <figure class="contact__map">
+        <iframe
+          title="Map: Svidnícka 107/15, Bratislava"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=17.1453%2C48.1556%2C17.1614%2C48.1636&amp;layer=mapnik&amp;marker=48.1596208%2C17.1533696"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <figcaption>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Svidn%C3%ADcka%20107%2F15%2C%20821%2003%20Bratislava" target="_blank" rel="noopener">Open in Google Maps</a>
+        </figcaption>
+      </figure>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <span class="brand__logo brand__logo--sm" aria-hidden="true">
-          <img src="assets/favicon.svg" alt="" onerror="this.style.display='none';this.parentElement.classList.add('brand__logo--fallback')" />
-          <span class="brand__logo-fallback">R</span>
-        </span>
-        <span class="brand__name">Redwix<span class="brand__accent">oft</span></span>
-      </div>
-      <p class="footer__meta">
-        Svidnícka 107/15, 821 03 Bratislava – Ružinov ·
-        <a href="mailto:tomas@redwixoft.sk">tomas@redwixoft.sk</a>
-      </p>
-      <p class="footer__legal">
-        Redwixoft s.&nbsp;r.&nbsp;o. · IČO: 55876714 · DIČ: 2122116447 · IČ DPH: SK2122116447
-      </p>
-      <p class="footer__copy">© <span id="year"></span> Redwixoft s.&nbsp;r.&nbsp;o. All rights reserved.</p>
-    </div>
+  <footer class="foot">
+    <p class="foot__mark"><img src="assets/favicon.svg" alt="" width="24" height="24" /> Redwixoft s.&nbsp;r.&nbsp;o.</p>
+    <p>Svidnícka 107/15, 821 03 Bratislava – Ružinov · <a href="mailto:tomas@redwixoft.sk">tomas@redwixoft.sk</a></p>
+    <p>IČO: 55876714 · DIČ: 2122116447 · IČ DPH: SK2122116447</p>
+    <p>© <span id="year">2026</span> Redwixoft s.&nbsp;r.&nbsp;o.</p>
   </footer>
 
   <script src="script.js"></script>

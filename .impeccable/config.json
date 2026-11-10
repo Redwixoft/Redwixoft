@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "files": [
+          ".impeccable/mocks/preview/c-standard.html"
+        ],
+        "createdAt": "2026-11-07T19:56:47.144Z",
+        "reason": "Claude: canon preview deliberately shows the category-standard look"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/preview/d-abecedo.html"
+        ],
+        "createdAt": "2026-11-07T19:56:47.475Z",
+        "reason": "Claude: tape cells and highlight copy the Abecedo app's own 20px tape geometry"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "onest",
+        "files": [
+          ".impeccable/mocks/preview/b-homescreen.html"
+        ],
+        "createdAt": "2026-11-07T20:22:21.414Z",
+        "reason": "Claude: rejected direction preview, not shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "geist",
+        "files": [
+          ".impeccable/mocks/preview/c-standard.html"
+        ],
+        "createdAt": "2026-11-07T20:22:21.735Z",
+        "reason": "Claude: rejected direction preview, not shipped"
+      }
+    ]
+  }
+}
