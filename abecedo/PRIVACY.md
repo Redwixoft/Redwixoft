@@ -1,6 +1,6 @@
 # Abecedo — Ochrana súkromia / Privacy Policy
 
-Platné od 23. septembra 2026 · Effective 23 September 2026
+Platné od 8. novembra 2026 · Effective 8 November 2026
 
 The Slovak version below is the one shown in the app (Nastavenia → Súkromie). The English
 version is a translation of the same text; where the two differ, the Slovak one governs.
@@ -21,25 +21,31 @@ tomas@redwixoft.sk.
 ### Čo je uložené na serveri
 
 - Prezývka, ktorú si si zvolila. Je verejná — zobrazuje sa v rebríčku.
-- Identifikátor zariadenia (Android ID). Slúži len na to, aby ťa hra po reštarte poznala ako
+- Identifikátor zariadenia (na Androide Android ID, na iPhone náhodný identifikátor uložený
+  v Keychaine). Slúži len na to, aby ťa hra po reštarte poznala ako
   toho istého hráča.
 - Odtlačok prihlasovacieho tokenu. Samotný token na serveri uložený nie je.
-- Výsledky hier: dátum, počet tipov, čas, či si vyhrala alebo sa vzdala, či šlo o deň
-  z archívu a kedy ti bolo slovo vydané.
+- Výsledky hier (slova dňa aj týždennej výzvy): dátum, počet tipov, čas, či si vyhrala alebo
+  sa vzdala, či šlo o hru z archívu, kedy ti bolo slovo vydané a pri slove dňa aj prvé slovo,
+  ktorým si hru začala. Z prvých slov
+  počítame štatistiky začiatočných písmen — tvoje aj súhrnné za všetkých hráčov, v ktorých
+  nikoho nevidno.
 - Úspechy a série: odomknuté úspechy, počty výhier a vzdaní, aktuálna a najdlhšia séria,
-  žolíky, začiatočné písmená tvojich prvých tipov a dátumy posledných hier.
+  žolíky, písmená, na ktoré sa začínali tvoje tipy (pre úspech Full Alphabet), a dátumy
+  posledných hier.
 - Slová, ktoré si navrhla do slovníka, a poznámka z ich posúdenia.
 - Odtlačok prenosového kódu a čas jeho platnosti, kým je nejaký vytvorený.
 
 ### Čo zostáva len v telefóne
 
-- Jednotlivé tipy. Server dostáva výsledok hry, nie ťahy, ktorými si k nemu prišla.
+- Ostatné tipy. Server dostáva výsledok hry a prvé slovo, nie ďalšie ťahy, ktorými si k nemu
+  prišla.
 - História odohraných dní a rozohraná hra.
 - Prihlasovací token, v zabezpečenom úložisku telefónu.
 - Nastavenia: téma, pripomienka, slovník a jeho verzia.
 
 Keď aplikáciu odinštaluješ alebo jej vymažeš dáta, toto všetko zmizne. Účet na serveri tým
-zmazaný nie je — na ten je e-mail nižšie.
+zmazaný nie je — postup je nižšie.
 
 ### Čo nezbierame
 
@@ -70,8 +76,8 @@ rebríček použiteľný (čl. 6 ods. 1 písm. f GDPR).
 Server aj databázu prevádzkujeme na platforme Railway, ktorá pre nás vystupuje ako
 sprostredkovateľ. Podľa regiónu, v ktorom služba beží, môžu byť údaje spracúvané aj mimo
 Európskeho hospodárskeho priestoru; vtedy sa prenos opiera o štandardné zmluvné doložky
-Európskej komisie. Aplikáciu distribuuje Google Play, ktorý má vlastné pravidlá ochrany
-súkromia.
+Európskej komisie. Aplikáciu distribuujú Google Play a App Store, ktoré majú vlastné pravidlá
+ochrany súkromia.
 
 ### Ako dlho ich držíme
 
@@ -80,9 +86,10 @@ použiješ — podľa toho, čo nastane skôr.
 
 ### Zmazanie účtu
 
-Zmazať účet priamo v aplikácii zatiaľ nejde. Napíš na tomas@redwixoft.sk a účet aj so
-všetkými výsledkami zmažeme, najneskôr do 30 dní. Uveď prezývku — bez nej ti účet nemusíme
-vedieť nájsť. Podrobný postup: https://www.redwixoft.sk/abecedo-delete-account.html
+V Nastaveniach je tlačidlo Zmazať účet. Okamžite a natrvalo zmaže prezývku, výsledky,
+korunky, úspechy aj návrhy slov zo servera a údaje hry z telefónu. Ak už aplikáciu nemáš,
+napíš na tomas@redwixoft.sk s prezývkou a účet zmažeme najneskôr do 30 dní. Podrobný postup:
+https://www.redwixoft.sk/abecedo-delete-account.html
 
 ### Tvoje práva
 
@@ -122,27 +129,31 @@ tomas@redwixoft.sk.
 ### What is stored on the server
 
 - The nickname you chose. It is public — it appears on the leaderboard.
-- A device identifier (Android ID). Its only job is to let the game recognise you as the same
+- A device identifier (the Android ID on Android; on iPhone, a random identifier kept in the
+  Keychain). Its only job is to let the game recognise you as the same
   player after a restart.
 - A hash of your access token. The token itself is not stored on the server.
-- Game results: date, number of guesses, time taken, whether you won or gave up, whether it
-  was an archive day, and when the word was issued to you.
+- Game results (the daily word and the weekly challenge): date, number of guesses, time taken,
+  whether you won or gave up, whether it was played from the archive, when the word was issued
+  to you, and — for the daily word — the word you opened the game with.
+  The opening words feed the starting-letter statistics — your own, and totals across all
+  players in which no one can be singled out.
 - Achievements and streaks: unlocked achievements, win and give-up counts, current and longest
-  streak, grace days, the opening letters of your first guesses, and the dates of your most
-  recent games.
+  streak, grace days, the letters your guesses have started with (for the Full Alphabet
+  achievement), and the dates of your most recent games.
 - Words you proposed for the dictionary, and the note from reviewing them.
 - A hash of your account transfer code and its expiry, for as long as one is outstanding.
 
 ### What stays on the phone only
 
-- Your individual guesses. The server receives the result of a game, not the moves that got
-  you there.
+- Your other guesses. The server receives the result of a game and its first word, not the
+  rest of the moves that got you there.
 - The history of days you have played, and a game in progress.
 - The access token, in the phone's secure storage.
 - Settings: theme, reminder, the dictionary and its version.
 
 Uninstalling the app or clearing its data removes all of this. It does **not** delete the
-account on the server — for that, use the email address below.
+account on the server — see below for how to do that.
 
 ### What we do not collect
 
@@ -173,7 +184,7 @@ keeping the leaderboard usable (Art. 6(1)(f) GDPR).
 The server and database run on Railway, which acts as our processor. Depending on the region
 the service runs in, data may be processed outside the European Economic Area; in that case
 the transfer relies on the European Commission's Standard Contractual Clauses. The app is
-distributed by Google Play, which has its own privacy policy.
+distributed by Google Play and the App Store, each of which has its own privacy policy.
 
 ### How long we keep it
 
@@ -182,9 +193,10 @@ moment you use it — whichever comes first.
 
 ### Deleting your account
 
-Deleting an account from inside the app is not possible yet. Email tomas@redwixoft.sk and
-we will delete the account and all its results, within 30 days at the latest. Include your
-nickname — without it we may not be able to find the account. Step by step:
+Settings has a Delete account button (Zmazať účet). It immediately and permanently deletes
+your nickname, results, crowns, achievements and word proposals from the server, and the game
+data from the phone. If you no longer have the app, email tomas@redwixoft.sk with your
+nickname and we will delete the account within 30 days at the latest. Step by step:
 https://www.redwixoft.sk/abecedo-delete-account.html
 
 ### Your rights
